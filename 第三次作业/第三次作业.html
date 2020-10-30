@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第三次作业</title>
+    <link rel="stylesheet" type="text/css" href="../第三次作业/css/第三次作业.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header_nav">
+            <img src="../第三次作业/images/dscds.png">
+            <ul id="ul">
+                <li><a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">部门介绍</a></li>
+                <li>
+                    <a href="#">部门产品</a></li>
+                <li>
+                    <a href="#">毕业去向</a></li>
+                <li>
+                    <a href="#">加入我们</a></li>
+            </ul>
+            <input type="text" name="word">
+            <input type="button" id="button">
+
+        </div>
+
+    </div>
+    <div id="main">
+        <div id="main_1">
+            <p>产品分析</p>
+
+            <div id="main_1_1">
+                <div id="main_1_1_nav">
+                    <ul id="ul1">
+                        <li>
+                            <a href="#">产品定位</a></li>
+                        <li>
+                            <a href="#"> 主要功能</a></li>
+                        <li>
+                            <a href="#">用户体验</a></li>
+                    </ul>
+
+                </div>
+
+                <div id="main_1_2">
+                    <div id="main_1_2_1">
+                        <ul id="ul2">
+                            <li>
+                                <a href="#">重邮小帮手</a>
+                            </li>
+                            <li>
+                                <a href="#">掌上重邮</a>
+                            </li>
+                            <li>
+                                <a href="#">网址大全</a>
+                            </li>
+                            <li>
+                                <a href="#">弹幕系统</a>
+                            </li>
+                            <li>
+                                <a href="#">青春邮约</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="main_1_2_2">
+                        <img src="../第三次作业/images/picture1.png">
+                        <h4>课表查询</h4>
+                        <h5>课表查询大众传播记者才能看出的的 市残联号的残骸的v城市产生了才能 市场的。
+                        </h5>
+                    </div>
+                    <div id="main_1_2_3">
+                        <img src="../第三次作业/images/picture2.png">
+                        <h4>空教室查询</h4>
+                        <h5>课表查询大众传播记者才能看出的的 市残联号的残骸的v城市产生了才能 市场的。
+                        </h5>
+                    </div>
+                    <div id="main_1_2_4">
+                        <img src="../第三次作业/images/picture3.png">
+
+                        <h4>没课约</h4>
+                        <h5>课表查询大众传播记者才能看出的的 市残联号的残骸的v城市产生了才能 市场的。
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="main_2"></div>
+        <div id="main_3"></div>
+    </div>
+    <div id="footer"></div>
+
+    <script>
+        function background() {
+            if (!document.getElementsByTagName || !document.getElementsByTagName) return false;
+            var s2 = document.getElementsByTagName("li");
+            for (var i = 0; i < s2[i].length; i++) {
+                s2[i].onmouseover = function() {
+                    this.style.backgroundColor = "#2e24b2";
+                }
+                s2[i].onmouseout = function() {
+                    this.style.backgroundColor = "#2e24b2";
+                }
+            }
+
+        }
+
+        window.onload = function() {
+            background();
+        }
+    </script>
+</body>
+
+</html>
